@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <!--JAVASCRIPT-->
+    <script src="js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+    <section class="enter">
+        <figure>
+            <img src="assets/About.png" alt=""/>
+            <figcaption>
+                <h1> Dreamers World ! </h1>
+            </figcaption>
+        </figure>
+        <div class="enterit">
+       <div class="form">
+                 <form action="submit.html" onsubmit=" return validate()">
+                    <input
+                     type ="text" 
+                     placeholder="Enter Name"   
+                     name="username" 
+                     id="username"
+                    />
+                    <p id="nameError"></p>
+                    <input
+                     type ="text" 
+                     placeholder="Mobile Number"   
+                     name="mobile" 
+                     id="mobile"
+                    />
+                    <p id="mobileError"></p>
+                    <input
+                     type ="text" 
+                     placeholder="Email Address"   
+                     name="email" 
+                     id="email"
+                    />
+                    <p id="emailError"></p>
+                    <input
+                     type ="text" 
+                     placeholder=" Address"   
+                     name="address" 
+                     id="address"
+                    />
+                    <p id="addressError"></p>
+
+                    <input
+                     type ="text" 
+                     placeholder="occupation"   
+                     name="occupation" 
+                     id="occupation"
+                    />
+                    <p id="occupationError"></p>
+    
+                    <input type ="submit" name="" id=""/>
+                     </form>
+                <script src="validate.js"></script>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
